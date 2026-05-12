@@ -1,0 +1,17 @@
+# ─────────────────────────────────────────────
+# Dataset YOLOv8 — Detección cercana
+# Clases: carro, moto, persona, poste, senal_transito
+# ─────────────────────────────────────────────
+
+path: ./yolo_dataset   # ruta raíz del dataset (ajusta según donde pongas la carpeta)
+train: images/train
+val:   images/val
+
+nc: 5   # número de clases
+
+names:
+  0: carro
+  1: moto
+  2: persona
+  3: poste
+  4: senal_transito

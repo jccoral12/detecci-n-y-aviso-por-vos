@@ -1,0 +1,8 @@
+# Vision Asistida - Dependencias Semana 1
+# Instalar con: pip install -r requirements.txt
+
+ultralytics>=8.0.0       # YOLOv8 (incluye PyTorch si no esta instalado)
+opencv-python>=4.8.0     # Captura y visualizacion de video
+torch>=2.0.0             # Backend de deep learning
+torchvision>=0.15.0      # Utilidades de vision para torch
+numpy>=1.24.0            # Manejo de arrays

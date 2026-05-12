@@ -1,0 +1,22 @@
+# Entorno virtual
+_env/
+__pycache__/
+*.pyc
+
+# Pesos de modelos (archivos grandes)
+*.pt
+*.pth
+
+# Datasets grandes
+dataset_yolov8_listo/
+dataset_yolov8_listo.zip
+entrenamiento_normalizado/
+images/
+labels/
+
+# Runs de entrenamiento (resultados de YOLO)
+runs/
+
+# Archivos temporales
+*.zip
+.ipynb_checkpoints/
