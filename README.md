@@ -18,7 +18,7 @@ vision_asistida_sonido-> utiliza modelo propio y modelo preentrenado
 3. Ejecutar: `venv\Scripts\activate`
 ## Instalacion manual
 
-# PyTorch con CUDA 12.1 (RTX 4050)
+
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 # Resto de paquetes
